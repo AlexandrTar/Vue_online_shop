@@ -1,5 +1,7 @@
 # online_shop
 
+Это небольшой учебный проект Vue.js. При его создании, я пользовался: Vue CLI 3, Vue router, Vuex, axios, json-server и Sass.
+
 ## Project setup
 ```
 npm install
