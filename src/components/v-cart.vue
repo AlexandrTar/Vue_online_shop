@@ -1,8 +1,8 @@
 <template>
   <div class="v-cart">
     <router-link :to="{name: 'catalog'}">
-      <div class="v-catalog__link_to_cart">
-        Back to catalog
+      <div class="v-catalog__link_to_cart btn_back">
+        Back
       </div>
     </router-link>
     <h2>Cart</h2>
@@ -84,5 +84,16 @@ export default {
 }
 .total_name{
   margin-right: $margin*2;
+}
+.btn_back {
+  border: 1px solid black;
+  padding: $padding*1.5;
+  color: black;
+  transition: all .2s linear;
+
+  &:hover {
+    background: black;
+    color: white;
+  }
 }
 </style>

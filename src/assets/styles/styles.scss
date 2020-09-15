@@ -1,17 +1,20 @@
 @import "variables.scss";
 
 .btn {
-  font-weight: 700;
   padding: $padding $padding*2;
-  background: white;
+  background: rgba(0, 0, 0, 1);
+  color: white;
   outline: none;
   box-shadow: 0 0 8px 0 #e0e0e0;
   border: none;
   cursor: pointer;
   transition: all .2s linear;
+  margin: 5px 0;
+  border: 1px solid black;
 
 
   &:hover {
-    box-shadow: 0 0 20px 0 #e0e0e0;
+    background: white;
+    color: black;
   }
 }

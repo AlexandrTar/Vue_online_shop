@@ -12,7 +12,7 @@
 
     <div class="v-cart-item__quantity">
 
-      <div class="quantity__title">Q-ty:</div>
+<!--      <div class="quantity__title">Q-ty:</div>-->
 
       <div class="quantity__content">
         <span class="quantity__btn" @click="decrementItem">-</span>
@@ -64,10 +64,20 @@ export default {
   padding: $padding*2;
   margin-bottom: $margin*2;
 
-  min-width: 400px;
+  min-width: 600px;
   &__image{
-    height: 100px;
+    height: 140px;
    }
+  .quantity__btn {
+    width: 5px;
+    height: 5px;
+    margin: 0 5px;
+
+    &:hover {
+      color: black;
+      box-shadow: 0 0 8px 0 #e0e0e0;
+    }
+  }
 
 }
 
